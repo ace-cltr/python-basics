@@ -31,6 +31,9 @@ def handle_multiple_args(*args):
 print(handle_multiple_args(2,34,6,7,2,24,'sf','ffg'))
 
 # slice method in python
+# used for trimming an array or string
 
+message = 'Hi there everyone'
 
-
+print(message[3:7]) # message[3:7] - the first value [3] will get included but last value won't
+# it's like [last value - 1] index
