@@ -37,3 +37,11 @@ message = 'Hi there everyone'
 
 print(message[3:7]) # message[3:7] :- the first value [3] will get included but last value won't
 # it's like [last value - 1] index
+
+# lowercase or uppercase string in python:-
+
+message2 = 'Hi How IS Going Everybody'
+print(message2.lower()) # to lower case output :- hi how is going everybody
+print(message2.upper()) # to upper case output :- HI HOW IS GOING EVERYBODY
+
+
