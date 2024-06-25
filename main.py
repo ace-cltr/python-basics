@@ -44,4 +44,7 @@ message2 = 'Hi How IS Going Everybody'
 print(message2.lower()) # to lower case output :- hi how is going everybody
 print(message2.upper()) # to upper case output :- HI HOW IS GOING EVERYBODY
 
+# count() method to get how many times an element occurs in a string or array
+
+print(message2.count('H')) # counts how many times capital 'H' appeared in message2 string
 
